@@ -190,6 +190,6 @@ module.exports = {
   ],
 
   // 微信二维码图片
-  socialImgUrl: 'http://cdn.billyhu.com/icon/wechat.png'
+  socialImgUrl: 'http://p7vo4evrg.bkt.clouddn.com/icon/wechat.png'
 
 };
