@@ -2,7 +2,7 @@
   <div id="indexBox" class="indexBox animated fadeIn">
     <div class="index-content">
       <div class="head-wrap">
-        <h3 class="text-center services">The blog of billyhu</h3>
+        <h3 class="text-center services">The blog of wfj</h3>
         <div id="headlines">
           <h1 :class="{'current': now==1}" class="text-center textItem">New <span class="blue">again</span></h1>
           <h1 :class="{'current': now==2}" class="text-center textItem"><span class="blue">凡有所学</span>皆成性格</h1>
