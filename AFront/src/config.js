@@ -9,7 +9,7 @@ let CONFIG;
 
 if (process.env.NODE_ENV === 'production') {
   CONFIG = {
-    url: "http://blog.billyhu.com",
+    url: "",
     MY_INFO_ID: '5a09c50775bbda8712825a63',
     MY: '博主',
     EMAIL: 'billyhoom@qq.com'

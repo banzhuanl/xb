@@ -33,7 +33,7 @@ function explorer(path){
                     }else{
                         // 读出所有的文件
                         // 此处需要和html-webpack-plugin插件填充的打包目录配合
-                        let filename = path.split('\\').pop() + '/' + file;
+                        let filename = path.split('public/').pop() + '/' + file;
                         let filepath = path + '/' + file;
                         uploadArr.push(uploadFile(filename, filepath));
                         res(0);

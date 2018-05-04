@@ -1,6 +1,6 @@
 <template>
     <div class="index-bottom-info text-center text-overflow">
-        <p><i class="fa fa-copyright"></i><span> 2017-2018 All Rights Reserved.</span><span class="hidden-xs">Designed by billyhu.鄂ICP备16001878号.</span></p>
+        <p><i class="fa fa-copyright"></i><span> 2017-2018 All Rights Reserved.</span><span class="hidden-xs"><a href="http://www.miitbeian.gov.cn/" target="_blank" class="beian">浙ICP备18014148号-1.</a></span></p>
     </div>
 </template>
 <style scoped lang="scss">
@@ -14,5 +14,9 @@
         p {
             overflow: hidden;
         }
+    }
+    .beian{
+        color:#fff;
+        display:inline-block;
     }
 </style>

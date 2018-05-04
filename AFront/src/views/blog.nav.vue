@@ -5,7 +5,7 @@
       <a v-if="isMobile && this.$route.name=='article'" @click="navBack" class="nav__item" title="后退">
         <i class="fa fa-arrow-left  fa-fw fa-lg blue blackBG"></i>
       </a>
-      <a v-else class="nav__item" @click="clearSessionStorage()" data-toggle="tooltip" data-placement="right" title="billyh" href = "#">
+      <a v-else class="nav__item" @click="clearSessionStorage()" data-toggle="tooltip" data-placement="right" title="billyh" href = "/">
         <img class="siteLogo img-circle" src = "http://p7vo4evrg.bkt.clouddn.com/icon/node.png">
       </a>
       <router-link class="nav__item" :to="{ name: 'index'}" exact data-toggle="tooltip" activeClass="active"
